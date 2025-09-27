@@ -47,28 +47,28 @@ A modern, responsive task management web application built with React and Tailwi
 
 > 🖥️ **Login Page**  
 <div align="center">
-  <img src="public/login.png" alt="Login Page" style="border:2px solid #444; border-radius:8px;"/>
+  <img src="./public/login.png" alt="Login Page" style="border:2px solid #444; border-radius:8px;"/>
 </div>
 
 ---
 
 > 📊 **Admin Dashboard**  
 <div align="center">
-  <img src="public/admin.png" alt="Admin Dashboard" style="border:2px solid #444; border-radius:8px;"/>
+  <img src="./public/admin.png" alt="Admin Dashboard" style="border:2px solid #444; border-radius:8px;"/>
 </div>
 
 ---
 
 > 📋 **Employee Dashboard**  
 <div align="center">
-  <img src="public/employee.png" alt="Employee Dashboard" style="border:2px solid #444; border-radius:8px;"/>
+  <img src="./public/employee.png" alt="Employee Dashboard" style="border:2px solid #444; border-radius:8px;"/>
 </div>
 
 ---
 
 > 📱 **Mobile Responsive Views**  
 <div align="center">
-  <img src="public/mobile.png" alt="Mobile View" style="border:2px solid #444; border-radius:8px;"/>
+  <img src="./public/mobile.png" alt="Mobile View" style="border:2px solid #444; border-radius:8px;"/>
 </div>
 
 ---
