@@ -1,16 +1,81 @@
-# React + Vite
+# Employee Management System (EMS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📋 Project Overview
+A modern, responsive task management web application built with React and Tailwind CSS. Features role-based access control for administrators and employees with real-time task tracking and management capabilities.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Key Features
 
-## React Compiler
+### 👨‍💼 Admin Capabilities
+- Employee registration and management
+- Task assignment and tracking
+- Dashboard with progress statistics
+- Full task CRUD operations
+- Visual status indicators
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 👨‍💻 Employee Capabilities
+- Self-registration and login
+- Task status updates (Pending → In Progress → Completed)
+- Personal task history
+- Responsive task management interface
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+
+| Layer            | Technology Used           |
+|------------------|---------------------------|
+| **Frontend**     | React 18, Tailwind CSS    |
+| **Routing**      | React Router DOM          |
+| **State Mgmt**   | Context API + Hooks       |
+| **Storage**      | Browser localStorage      |
+| **Styling**      | Dark-themed responsive UI |
+
+---
+
+## 🔗 Demo Access
+- **Live Application**: http://localhost:5173  
+
+**Demo Credentials:**  
+- **Admin**: `admin@taskmanager.com / admin123`  
+- **Employee**: `john@taskmanager.com / employee123`  
+
+---
+
+## 📱 Application Screenshots
+
+> 🖥️ **Login Page**  
+<div align="center">
+  <img src="public/login.png" alt="Login Page" style="border:2px solid #444; border-radius:8px;"/>
+</div>
+
+---
+
+> 📊 **Admin Dashboard**  
+<div align="center">
+  <img src="public/admin.png" alt="Admin Dashboard" style="border:2px solid #444; border-radius:8px;"/>
+</div>
+
+---
+
+> 📋 **Employee Dashboard**  
+<div align="center">
+  <img src="public/employee.png" alt="Employee Dashboard" style="border:2px solid #444; border-radius:8px;"/>
+</div>
+
+---
+
+> 📱 **Mobile Responsive Views**  
+<div align="center">
+  <img src="public/mobile.png" alt="Mobile View" style="border:2px solid #444; border-radius:8px;"/>
+</div>
+
+---
+
+## 🎯 Key UI Elements
+- Dark-themed interface with modern design  
+- Color-coded task status (Red/Yellow/Green)  
+- Responsive cards with hover effects  
+- Modal forms for task management  
+- Loading spinners and smooth animations  
